@@ -1,0 +1,71 @@
+# 编译产物
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# 构建目录
+build/
+Build/
+cmake-build-*/
+out/
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+*.cmake
+!CMakeLists.txt
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.ncb
+*.sdf
+
+# 其他 IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 依赖与包管理
+vcpkg_installed/
+conan/
+conanbuildinfo.*
+_install/
+
+# 调试与日志
+*.log
+*.pdb
+*.ilk
+*.idb
+*.dSYM/
+core
+core.*
+
+# 系统文件
+.DS_Store
+Thumbs.db
